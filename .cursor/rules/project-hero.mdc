@@ -1,0 +1,32 @@
+---
+description: Locked project-page hero/intro layout copied from OGCR
+globs: "*.html"
+alwaysApply: true
+---
+
+# Project hero layout (locked)
+
+Every project case study uses the **same hero + intro as `OGCR.html`**. Do not invent a new composition per project. Only swap content and assets.
+
+## Required structure (in this order)
+
+1. `section.project-hero` — one full-width image (`.project-image`)
+2. `section.project-intro`
+   - **Left** `.project-intro-left`: `h1.project-title` + `ul.project-tags` (tags sit at the bottom of the column)
+   - **Right** `.project-intro-body`: `p.project-text` (project caption) + `dl.project-meta` in a 2×2 grid
+
+## Meta fields (never rename or reorder)
+
+- Client
+- With
+- Role
+- Year
+
+## Do not
+
+- Move tags, caption, or meta into a different column
+- Replace tags with a metadata list (Year/Location/Team/Type, etc.)
+- Add overlays, extra credits blocks, or a different intro grid
+- Restyle this block with project-specific CSS
+
+Reuse existing classes only (`project-hero`, `project-intro`, `project-tags`, `project-meta`). Navbar, footer, and the rest of the case study can differ; this hero/intro cannot.

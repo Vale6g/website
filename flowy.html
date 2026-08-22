@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marine Dichotomies – Valentina Guariglia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-left">
+        <a href="index.html" class="logo">Vale_6g</a>
+        
+      </div>
+  
+      <div class="nav-right">
+        <a href="about.html" data-nav>About</a>
+        <a href="works.html" data-nav>Works</a>
+      </div>
+  
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-menu-close" id="mobileMenuClose">×</button>
+      <div class="mobile-menu-content">
+        <a href="about.html" class="mobile-menu-link">About</a>
+        <a href="works.html" class="mobile-menu-link">Works</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="project-main">
+    <!-- Hero Image -->
+    <section class="project-hero">
+      <div class="hero-image">
+        <img src="assets/Flowy/1.gif" alt="Marine Dichotomies Hero Image">
+      </div>
+    </section>
+
+    <!-- Project Header -->
+    <section class="project-section">
+      <div class="section-container">
+        <div class="creative-process-content">
+          <div class="creative-process-text fade-in">
+            <h1 class="project-title">Flowy</h1>
+            <div class="section-text">
+              <p class="project-subtitle">Produt Design · UX/UI · Machine Learning</p>
+            <p class="project-description">
+                Flowy is an AI-powered yoga instructor that enhances your yoga practice by analyzing your poses in real time and providing personalized suggestions for improvement. For each pose, it assigns a score based on the accuracy of your execution, using three precision levels - 10, 50 or 100 - which represent the percentage of pose accuracy.<br>
+                Elevate your yoga with AI guidance!
+            </p>
+            </div>
+          </div>
+          <div class="header-image fade-in-right">
+            <img src="assets/Flowy/Flowy_hero.png" alt="Symbiosis Installation Overview">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Project Information -->
+    <section class="project-info">
+      <div class="info-container">
+        <div class="info-row fade-in">
+          <div class="info-item">
+            <h3>Year</h3>
+            <p>2025</p>
+          </div>
+          <div class="info-item">
+            <h3>Context</h3>
+            <p>Machine Learning for<br>Designers, SUPSI Mendrisio</p>
+          </div>
+          <div class="info-item">
+            <h3>Role</h3>
+            <p>Concept, 3D modelling, UI/UX,<br>Fabrication, Illustration</p>
+          </div>
+          <div class="info-item">
+            <h3>Duration</h3>
+            <p>1 week</p>
+          </div>
+          <div class="info-item">
+            <h3>Tools</h3>
+            <p>Fusion 360, Prusa slicer,<br>Illustrator</p>
+          </div>
+          <div class="info-item">
+            <h3>Team</h3>
+            <p>Nicolò Beghetto,<br>Federico Mameo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Additional Image Section -->
+ <section class="project-gallery">
+    <div class="gallery-container">
+      <div class="gallery-item full-width fade-in">
+        <img src="assets/Flowy/medita.jpg" alt="Symbiosis Additional Image">
+      </div>
+    </div>
+  </section> 
+
+    
+    </section>
+
+
+       <!-- Process Section -->
+    <section class="project-section">
+        <div class="section-container">
+          <div class="process-content">
+            <div class="process-text fade-in">
+              <h2 class="section-title">Process & Technical development</h2>
+              <div class="section-text">
+                <p>
+                    We experimented with different tools and ML models (e.g., Teachable Machine, LLAVA), and we also considered integrating skeleton detection with MediaPipe to enhance feedback accuracy. However, GPT-4o proved highly reliable in correctly identifying yoga poses.
+                </p>
+                <p>
+                   The primary input is the front-facing camera, which tracks the user’s movements. The outputs include both visual elements (such as a timer, pose illustration and performance score) and auditory feedback to guide the user in real-time.
+                </p>
+              </div>
+            </div>
+            <div class="process-images fade-in-right">
+              <div class="image-carousel">
+                <img src="assets/Flowy/Screenshot_1.jpg" alt="Flowy Process Screenshot 1" class="carousel-image active">
+                <img src="assets/Flowy/Screenshot_2.jpg" alt="Flowy Process Screenshot 2" class="carousel-image">
+                <img src="assets/Flowy/Screenshot_4.jpg" alt="Flowy Process Screenshot 3" class="carousel-image">
+                <img src="assets/Flowy/Screenshot_5.jpg" alt="Flowy Process Screenshot 4" class="carousel-image">
+                <img src="assets/Flowy/Screenshot_6.jpg" alt="Flowy Process Screenshot 5" class="carousel-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+    <!-- User Journey Section -->
+    <section class="project-section">
+      <div class="section-container">
+        <div class="building-content">
+          <div class="building-text fade-in">
+            <h2 class="section-title">User Journey</h2>
+          </div>
+          <div class="user-journey-diagram fade-in">
+            <div class="journey-step step-1">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h3>User Detection</h3>
+                <p>When Flowy detects a person, it activates automatically</p>
+              </div>
+            </div>
+            
+            <div class="journey-arrow">→</div>
+            
+            <div class="journey-step step-2">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h3>Session Initiation</h3>
+                <p>Each pose is shown with its name and an illustration</p>
+              </div>
+            </div>
+            
+            <div class="journey-arrow">→</div>
+            
+            <div class="journey-step step-3">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h3>Pose Preparation</h3>
+                <p>The user has 10 seconds to get into position, guided by a gentle circular indicator</p>
+              </div>
+            </div>
+            
+            <div class="journey-arrow">→</div>
+            
+            <div class="journey-step step-4">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h3>Pose Execution</h3>
+                <p>Flowy provides real-time vocal feedbacks and assigns a performance score</p>
+              </div>
+            </div>
+            
+            <div class="journey-arrow">→</div>
+            
+            <div class="journey-step step-5">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h3>Flow Completion</h3>
+                <p>Once completing, Flowy displays a congratulatory message and gives vocal acknowledgment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       </section>
+
+    <!-- 3D Model and Prototype Section -->
+    <section class="project-section">
+      <div class="section-container">
+        <div class="prototype-content">
+          <div class="prototype-text fade-in">
+            <h2 class="section-title">3D Model & Prototype</h2>
+            <div class="section-text">
+              <p>
+                For the live demo of the prototype I modelled and 3D printed a custom-designed structure to securely hold the phone.
+              </p>
+              <p>The shape is inspired by the starting yoga pose, with the crossed legs serving as a support base and the hands joined above the head acting as a handle, also making the object more manageable and portable.</p>
+            </div>
+            <div class="prototype-media">
+              <div class="video-container">
+                <video autoplay muted loop>
+                  <source src="assets/Flowy/3d model video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="prototype-image fade-in-right">
+            <img src="assets/Flowy/Flowy 8.png" alt="Flowy 3D Model">
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+  
+
+
+    <!-- Visual Identity Section -->
+    <section class="project-section">
+        <div class="section-container">
+          <div class="visual-identity-content">
+            <div class="visual-identity-text fade-in">
+              <h2 class="section-title">Visual Identity</h2>
+            </div>
+            <div class="physical-prototype-image fade-in">
+              <img src="assets/Flowy/BRAND.png" alt="branding">
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+          
+ <!-- Digital Plant Archive -->
+ <section class="project-section">
+    <div class="section-container">
+      <div class="archive-content">
+        <div class="archive-text fade-in">
+          <h2 class="section-title">User Interface</h2>
+          <div class="section-text">
+            <p>
+              The interface is designed to be simple and minimal, ensuring that key information remains clear and easily accessible to users during yoga practice.<br>
+            <p>The illustrations of the poses were drawn from scratch, featuring round, playful shapes to better align with the overall branding. The animation of the pose that appears on the final screen was created using Adobe After Effects.
+            </p>
+          </div>
+        </div>
+        <div class="header-image fade-in-right">
+            <img src="assets/Flowy/UI.png" alt="Symbiosis Installation Overview">
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+     
+
+
+    <!-- Next Project -->
+    <section class="next-project">
+      <div class="next-container">
+        <a href="the-level-group.html" class="next-link">
+          <div class="next-content">
+            <h3>Next Project</h3>
+            <h1>The Level Group</h1>
+            <p>Interior Design · Corporate · Workspace</p>
+          </div>
+          <div class="next-arrow">→</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <p class="fade-in">@2026</p>
+      </div>
+      <div class="footer-right">
+        <a href="mailto:vale6guariglia@gmail.com" class="footer-link fade-in">vale6guariglia@gmail.com</a>
+        <a href="https://www.linkedin.com/in/valentina-guariglia-004310289/" target="_blank" class="footer-link fade-in">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
