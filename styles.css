@@ -972,9 +972,9 @@ a.explore-title:hover {
 
     .footer-link-label,
     .footer:has(.footer-aside) .footer-link-label {
-        font-size: var(--text-body-medium);
+        font-size: 24px;
         line-height: 1;
-        letter-spacing: var(--text-body-medium-letter-spacing);
+        letter-spacing: -1.2px;
         text-decoration: none;
     }
 }
@@ -1009,8 +1009,9 @@ a.explore-title:hover {
 
     .footer-link-label,
     .footer:has(.footer-aside) .footer-link-label {
-        font-size: var(--text-body-medium);
-        letter-spacing: var(--text-body-medium-letter-spacing);
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: -1.2px;
     }
 }
 
@@ -2426,10 +2427,12 @@ a.explore-title:hover {
         font-size: var(--text-title);
     }
 
-    .info-label {
-        font-size: var(--text-body-small);
+    .info-label,
+    .info-value {
+        font-size: 16px;
         font-weight: var(--text-body-small-weight);
         letter-spacing: var(--text-body-small-letter-spacing);
+        line-height: var(--text-body-small-line-height);
     }
 
     .info-row {
