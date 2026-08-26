@@ -785,9 +785,9 @@ a.explore-title:hover {
     }
 
     .navbar.is-open .navbar-menu-panel .footer-link-label {
-        font-size: 48px;
+        font-size: var(--text-body-medium);
         line-height: 1;
-        letter-spacing: -2.4px;
+        letter-spacing: var(--text-body-medium-letter-spacing);
         color: var(--inverted);
     }
 
@@ -1302,7 +1302,7 @@ a.explore-title:hover {
 }
 
 .project-intro .project-title {
-    font-size: min(var(--text-title), 14.5cqi);
+    font-size: min(80px, 14.5cqi);
 }
 
 .project-intro-body .project-text {
@@ -2426,6 +2426,12 @@ a.explore-title:hover {
         font-size: var(--text-title);
     }
 
+    .info-label {
+        font-size: var(--text-body-small);
+        font-weight: var(--text-body-small-weight);
+        letter-spacing: var(--text-body-small-letter-spacing);
+    }
+
     .info-row {
         flex-direction: column;
         align-items: flex-start;
@@ -2487,6 +2493,17 @@ a.explore-title:hover {
         white-space: normal;
         overflow-wrap: anywhere;
         word-break: break-word;
+    }
+
+    .contact-meta {
+        font-size: var(--text-body-small);
+        font-weight: var(--text-body-small-weight);
+        letter-spacing: var(--text-body-small-letter-spacing);
+    }
+
+    .project-heading {
+        font-size: 32px;
+        letter-spacing: -1.2px;
     }
 
     .project-intro-body .project-text {
