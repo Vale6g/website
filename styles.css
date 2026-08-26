@@ -972,9 +972,9 @@ a.explore-title:hover {
 
     .footer-link-label,
     .footer:has(.footer-aside) .footer-link-label {
-        font-size: 48px;
+        font-size: var(--text-body-medium);
         line-height: 1;
-        letter-spacing: -2.4px;
+        letter-spacing: var(--text-body-medium-letter-spacing);
         text-decoration: none;
     }
 }
@@ -1009,8 +1009,8 @@ a.explore-title:hover {
 
     .footer-link-label,
     .footer:has(.footer-aside) .footer-link-label {
-        font-size: 48px;
-        letter-spacing: -2.4px;
+        font-size: var(--text-body-medium);
+        letter-spacing: var(--text-body-medium-letter-spacing);
     }
 }
 
@@ -2493,6 +2493,18 @@ a.explore-title:hover {
         font-size: 24px;
         font-weight: var(--text-body-medium-weight);
         letter-spacing: var(--text-prose-letter-spacing);
+    }
+
+    .project-block .project-text {
+        font-size: var(--text-body-small);
+        font-weight: var(--text-body-small-weight);
+        letter-spacing: var(--text-body-small-letter-spacing);
+    }
+
+    .project-meta dd {
+        font-size: var(--text-body-small);
+        font-weight: var(--text-body-small-weight);
+        letter-spacing: var(--text-body-small-letter-spacing);
     }
 
     .project-tags,
