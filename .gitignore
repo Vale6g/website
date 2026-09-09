@@ -1,0 +1,5 @@
+# OS cruft
+.DS_Store
+
+# Local-only archive of removed legacy content (kept on disk, never published)
+_archive/
